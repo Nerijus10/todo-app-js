@@ -1,0 +1,92 @@
+body{
+    background-color: #E8E8E8;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+background: white;
+width: 450px;
+height: 620px;
+border-radius: 10px;
+}
+
+.header {
+    background: #28A7E0;
+    padding: 1.2rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 300px;
+    padding: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    background: #1F88B7;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.toDoList{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.itemName {
+    position: absolute;
+    left: 70px;
+}
+
+.listItem {
+   display: flex;
+   justify-content: space-between;
+   padding: 1rem;
+   margin-top: 0;
+   align-items: center;
+   padding-left: 20px;
+   position: relative;
+}
+
+ol:hover{
+    background:#28A7E01A ;
+}
+
+.circle {
+    padding: 0.7rem;
+    border-radius: 50%;
+    background: white;
+    font-size: 0.7rem;
+    cursor: pointer;
+    border: 1px solid black;
+    height: 5.38px;
+    width: 5.38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.delete {
+    cursor: pointer;
+}
